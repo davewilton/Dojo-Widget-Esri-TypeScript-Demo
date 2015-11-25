@@ -50,3 +50,4 @@ SampleDojoTypeScriptApp.sln
 *.config
 SampleDojoTypeScriptApp/SampleDojoTypeScriptApp.csproj
 SampleDojoTypeScriptApp/SampleDojoTypeScriptApp.csproj.user
+*.user
