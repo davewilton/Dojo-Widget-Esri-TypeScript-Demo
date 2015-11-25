@@ -1,4 +1,4 @@
-﻿var path = location.origin + '/' + location.pathname.split('/')[1];
+﻿var path = location.pathname.replace(/\/[^/]+$/, "")
 window.path = path;
 
 require({
