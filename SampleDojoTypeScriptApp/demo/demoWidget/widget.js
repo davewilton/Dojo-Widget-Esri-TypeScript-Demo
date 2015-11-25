@@ -4,10 +4,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-define(["require", "exports", "dojo/_base/declare", "dijit/_WidgetBase", "dijit/_TemplatedMixin", "dijit/_WidgetsInTemplateMixin", "./Map/MapController", "dojo/text!demo/demoWidget/demoWidget.html", "xstyle/css!./css/demoWidget.css", "dojo/i18n!./nls/strings"], function (require, exports, dojoDeclare, _WidgetBase, _TemplatedMixin, _WidgetsInTemplateMixin, MapController) {
-    var template = require("dojo/text!demo/demoWidget/demoWidget.html");
+define(["require", "exports", "dojo/text!demo/demoWidget/demoWidget.html", "xstyle/css!./css/demoWidget.css", "dojo/i18n!./nls/strings", "dojo/_base/declare", "dijit/_WidgetBase", "dijit/_TemplatedMixin", "dijit/_WidgetsInTemplateMixin", "./Map/MapController"], function (require, exports, template, css, nls, dojoDeclare, _WidgetBase, _TemplatedMixin, _WidgetsInTemplateMixin, MapController) {
     var nls = require("dojo/i18n!./nls/strings");
-    var css = require('xstyle/css!./css/demoWidget.css');
     var DemoWidget = (function (_super) {
         __extends(DemoWidget, _super);
         function DemoWidget(args, elem) {

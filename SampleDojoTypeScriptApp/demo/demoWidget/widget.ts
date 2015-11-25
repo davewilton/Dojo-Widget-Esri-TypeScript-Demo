@@ -1,9 +1,10 @@
 ﻿/// <reference path="../../typings/arcgis-js-api.d.ts" />
 
-/// <amd-dependency path="dojo/text!demo/demoWidget/demoWidget.html" />
-/// <amd-dependency path="xstyle/css!./css/demoWidget.css" />
-/// <amd-dependency path="dojo/i18n!./nls/strings" />
-
+/// <amd-dependency path="dojo/text!demo/demoWidget/demoWidget.html" name="template"/>
+/// <amd-dependency path="xstyle/css!./css/demoWidget.css" name="css" />
+/// <amd-dependency path="dojo/i18n!./nls/strings" name="nls" />
+declare var template: string;
+declare var nls: string;
 declare var require: (moduleId: string) => any;
 
 import dojoDeclare = require("dojo/_base/declare");
@@ -15,9 +16,6 @@ import _WidgetsInTemplateMixin = require("dijit/_WidgetsInTemplateMixin");
 import MapController = require("./Map/MapController");
 import DojoTextBox = require("dijit/form/TextBox");
 
-var template: string = require("dojo/text!demo/demoWidget/demoWidget.html");
-var nls = require("dojo/i18n!./nls/strings");
-var css = require('xstyle/css!./css/demoWidget.css');
 
 class DemoWidget extends dijit._WidgetBase {
 
