@@ -10,7 +10,7 @@ class AppController {
 
     start() {
         var widget = new DemoWidget();
-        domConstruct.place(widget.domNode, win.body());
+        domConstruct.place(widget.domNode, "widgetDiv");
         widget.startMap();
     }
 }

@@ -6,6 +6,7 @@ require({
         name: "demo",
         location: window.path + "/demo"
     }
+    //For local of JSAPI hosting comment out these lines
     //,
     //{
     //    name: "dijit",
