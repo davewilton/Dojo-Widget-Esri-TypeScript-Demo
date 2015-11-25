@@ -5,19 +5,21 @@ require({
     packages: [{
         name: "demo",
         location: window.path + "/demo"
-    },
-    {
-        name: "dijit",
-        location: window.path + "/arcgis-js-api/dijit"
-    },
-    {
-        name: "esri",
-        location: window.path + "/arcgis-js-api/esri"
-    },
-    {
-        name: "xstyle",
-        location: window.path + "/arcgis-js-api/xstyle"
-    }]
+    }
+    //,
+    //{
+    //    name: "dijit",
+    //    location: window.path + "/arcgis-js-api/dijit"
+    //},
+    //{
+    //    name: "esri",
+    //    location: window.path + "/arcgis-js-api/esri"
+    //},
+    //{
+    //    name: "xstyle",
+    //    location: window.path + "/arcgis-js-api/xstyle"
+    //}
+    ]
 });
 
 //https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/dojo

@@ -5,7 +5,6 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 define(["require", "exports", "dojo/text!demo/demoWidget/demoWidget.html", "xstyle/css!./css/demoWidget.css", "dojo/i18n!./nls/strings", "dojo/_base/declare", "dijit/_WidgetBase", "dijit/_TemplatedMixin", "dijit/_WidgetsInTemplateMixin", "./Map/MapController"], function (require, exports, template, css, nls, dojoDeclare, _WidgetBase, _TemplatedMixin, _WidgetsInTemplateMixin, MapController) {
-    var nls = require("dojo/i18n!./nls/strings");
     var DemoWidget = (function (_super) {
         __extends(DemoWidget, _super);
         function DemoWidget(args, elem) {

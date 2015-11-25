@@ -4,7 +4,8 @@
 /// <amd-dependency path="xstyle/css!./css/demoWidget.css" name="css" />
 /// <amd-dependency path="dojo/i18n!./nls/strings" name="nls" />
 declare var template: string;
-declare var nls: string;
+declare var nls: any;
+
 declare var require: (moduleId: string) => any;
 
 import dojoDeclare = require("dojo/_base/declare");

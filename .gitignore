@@ -49,3 +49,4 @@ SampleDojoTypeScriptApp/bin
 SampleDojoTypeScriptApp.sln
 *.config
 SampleDojoTypeScriptApp/SampleDojoTypeScriptApp.csproj
+SampleDojoTypeScriptApp/SampleDojoTypeScriptApp.csproj.user
